@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import SortableTree, { addNodeUnderParent, getFlatDataFromTree, removeNodeAtPath } from 'react-sortable-tree';
 import 'react-sortable-tree/style.css'; // This only needs to be imported once in your app
 //add comment here
+window.getFlatDataFromTree = getFlatDataFromTree
+
 export default class Tree extends Component {
   constructor(props) {
     super(props);
