@@ -49,7 +49,7 @@ export default class Tree extends Component {
                 })
               }
               >
-              Selecto
+              Select
               </button>,
             <button
             onClick={() =>
